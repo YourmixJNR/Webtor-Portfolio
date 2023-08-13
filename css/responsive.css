@@ -86,4 +86,9 @@
         height: 90%;
     }
 
+    .contact-sec-box h1 {
+        font-size: 2.5rem;
+        margin: 1px 0;
+}
+
 }
