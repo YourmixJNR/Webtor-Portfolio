@@ -19,11 +19,6 @@
         width: 70%;
     }
 
-    .hero-img-box img {
-        width: 350px; /* Fixed width in pixels */
-        height: 350px; /* Fixed height in pixels */
-    }
-
     .nickname-box h6 {
         font-size: .9rem;
     }
@@ -48,6 +43,11 @@
         
     }
 
+    .hero-img-box img {
+        width: 50%;
+        height: 50%;
+    }
+
     .hero-txt-box, .hero-img-box {
         width: 100%;
         text-align: center;
@@ -69,13 +69,17 @@
         padding: 1em 1em;
     }
 
+    section {
+        padding: 1em 1em;
+    }
+
     .hero-img-box {
         margin-top: 20px;
     }
 
     .hero-img-box img {
-        width: 250px;
-        height: 250px;
+        width: 90%;
+        height: 90%;
     }
 
 }
