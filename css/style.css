@@ -209,8 +209,9 @@ header .header-container {
     margin-top: 50px;
 }
 
-.nickname-box h6 {
+.nickname-box p {
     font-size: 1rem;
+    font-weight: 600;
 }
 
 .scm-box ul {
