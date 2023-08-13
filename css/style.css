@@ -36,7 +36,6 @@ main {
 /* Reuseable components */
 
 section {
-    min-height: 100vh;
     padding: 0em 5em;
 }
 
