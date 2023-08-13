@@ -205,8 +205,8 @@ header .header-container {
 }
 
 .hero-img-box img {
-    width: 400px; /* Fixed width in pixels */
-    height: 400px; /* Fixed height in pixels */
+    width: 410px; /* Fixed width in pixels */
+    height: 410px; /* Fixed height in pixels */
     background: var(--White);
 }
 
