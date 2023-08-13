@@ -237,7 +237,7 @@ header .header-container {
 /* Expertise starts */
 
 .expertise-section {
-    margin-top: 3em;
+    margin-top: 5em;
 }
 
 .expertise-box {
@@ -348,4 +348,34 @@ header .header-container {
 
 .pf-box-content .tool-use {
     margin-top: 10px;
+}
+
+/* Tools starts */
+
+.tools-container .tools-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tools-box .tl-dis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(237, 242, 248);
+}
+
+.tools-box img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.tools-container {
+    margin-top: 3em;
 }
