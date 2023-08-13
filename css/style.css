@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600&display=swap");
+
+:root {
+    --Plum: #073dbe;
+    --Tangerine: #ff9400;
+    --White: #fff;
+}
+
+/* Base style */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+}
+
+*::selection{
+    background: var(--White);
+    color:var(--Plum);
+}
+
+body {
+	width: 100vw;
+    /* overflow: hidden; */
+    color: #fff;
+    background: var(--Plum);
+}
+
+main {
+    position: relative;
+    margin: auto;
+}
+
+/* Reuseable components */
+
+section {
+    min-height: 100vh;
+    padding: 0em 5em;
+}
+
+.grad-txt {
+    margin-right: 0.3em;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg,orange,green,#0593ff,violet);
+    color: transparent;
+}
+
+.grad-btn {
+    position: relative;
+    min-width: 110px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg,orange,green,#0593ff,violet);
+    color: var(--Tangerine);
+}
+
+/* Header starts */
+
+header {
+    padding: 1em 5em ;
+}
+
+header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-box img {
+    width: 150px;
+}
+
+.toggle-btn {
+    width: 40px;
+    height: 40px;
+    background: var(--Tangerine) url(../assets/menu.png);
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 90;
+    cursor: pointer;
+}
+
+.toggle-btn:active {
+    background: var(--Tangerine) url(../assets/close.png);
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes close-animation {
+    100% {
+        top: 50%; /* Start position above the viewport */
+      }
+}
+
+.menu-box {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background: #f4f4f4;
+    z-index: 50;
+    animation: close-animation 0.3s ease-in;
+}
+
+@keyframes drop-animation {
+    0% {
+        top: -100%; /* Start position above the viewport */
+      }
+}
+
+.menu-box.active {
+    left: 0;
+    animation: drop-animation 0.3s ease-in;
+}  
+
+.menu-box ul {
+    position: relative;
+    list-style: none;
+}
+
+.menu-box ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ff9400;
+    line-height: 5em;
+}
+
+.social-media-fh ul {
+    list-style: none;
+}
+
+.social-media-fh ul li a img  {
+    width: 20px;
+    height: 20px;
+    fill: var(--Tangerine);
+}
+  
+.menu-box .social-media-fh {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: -90px;
+    left: 0;
+    width: 60px;
+    height: 100%;
+}
+
+.social-media-fh ul li hr  {
+    background-color: rgba(193,203,243,.922);
+    border: none;
+    height: 210px;
+    width: 1px;
+}
+
+/* Hero starts */
+
+.hero-section 
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-txt-box h1 {
+    font-size: 4rem;
+}
+
+.hero-txt-box p {
+    width: 60%;
+    font-weight: 500;
+    line-height: 2;
+    margin: 10px 0;
+}
+
+.portfolio-btn {
+    margin: 10px 0;
+}
+
+.hero-img-box img {
+    width: 400px; /* Fixed width in pixels */
+    height: 400px; /* Fixed height in pixels */
+    background: var(--White);
+}
+
+.less-footer {
+    
+}
+
+.ft-conatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nickname-box h6 {
+    font-size: 1rem;
+}
+
+.scm-box ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.scm-box ul li a img  {
+    width: 25px;
+    height: 25px;
+    fill: var(--Tangerine);
+}

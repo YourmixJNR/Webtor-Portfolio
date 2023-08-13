@@ -1,0 +1,81 @@
+@media (max-width: 1100px) {
+
+    header {
+        padding: 1em 3em ;
+    }
+
+    section {
+        padding: 1em 3em;
+    }
+
+    .hero-txt-box h1 {
+        font-size: 2.3rem;
+        line-height: 1.3;
+    }
+
+    .hero-txt-box p {
+        font-size: 14px;
+        line-height: 2;
+        width: 70%;
+    }
+
+    .hero-img-box img {
+        width: 350px; /* Fixed width in pixels */
+        height: 350px; /* Fixed height in pixels */
+    }
+
+    .nickname-box h6 {
+        font-size: .9rem;
+    }
+    
+    .scm-box ul {
+        display: flex;
+        gap: 10px;
+        list-style: none;
+    }
+    
+    .scm-box ul li a img  {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@media(max-width:800px){
+    
+    .hero-txt-box h1 {
+        font-size: 2rem;
+        
+    }
+
+    .hero-txt-box, .hero-img-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-txt-box p {
+        width: 100%;
+    }
+
+    .hero-container {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media(max-width:600px){
+    
+    header {
+        padding: 1em 1em;
+    }
+
+    .hero-img-box {
+        margin-top: 20px;
+    }
+
+    .hero-img-box img {
+        width: 250px;
+        height: 250px;
+    }
+
+}
