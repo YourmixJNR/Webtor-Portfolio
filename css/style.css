@@ -23,7 +23,6 @@
 
 body {
 	width: 100vw;
-    /* overflow: hidden; */
     color: #fff;
     background: var(--Plum);
 }
@@ -209,7 +208,7 @@ header .header-container {
 }
 
 .nickname-box p {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 600;
 }
 
