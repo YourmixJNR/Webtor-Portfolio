@@ -34,6 +34,10 @@
         height: 20px;
     }
 
+    .expertise-section, .portfolio-section {
+        margin-top: 2em;
+    }
+
 }
 
 @media(max-width:800px){

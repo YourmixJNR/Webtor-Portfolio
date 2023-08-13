@@ -184,8 +184,6 @@ header .header-container {
 
 /* Hero starts */
 
-.hero-section 
-
 .hero-container {
     display: flex;
     justify-content: space-between;
@@ -239,8 +237,8 @@ header .header-container {
 
 /* Expertise starts */
 
-.ex {
-    margin-top: 5em;
+.expertise-section {
+    margin-top: 3em;
 }
 
 .expertise-box {
@@ -308,4 +306,10 @@ header .header-container {
     display: inline-block;
     font-size: 13px;
     font-weight: 500;
+}
+
+/* Portfolio starts */
+
+.portfolio-section {
+    margin-top: 3em;
 }
