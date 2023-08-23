@@ -1,0 +1,1 @@
+The Webtor Portfolio involves reimagining and creating a unique portfolio website inspired by the design elements of Miriam Medo's portfolio. After receiving feedback from the instructor, I've taken Miriam Medo's design as inspiration and applied my creativity to develop a distinctive portfolio that reflects my personal style.
